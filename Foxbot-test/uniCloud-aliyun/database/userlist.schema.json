@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"username":{
+			"bsonType":"string",
+			"description":"昵称"
+		},
+		"jobNumber":{
+			"bsonType":"string",
+			"description":"工号或账号"
+		},
+		"password":{
+			"bsonType":"string",
+			"description":"密码"
+		},
+		"authority":{
+			"bsonType":"bool",
+			"description":"是否拥有访问权限"
+		},
+		"administrators":{
+			"bsonType":"bool",
+			"description":"是否是超级管理员"
+		}
+	}
+}

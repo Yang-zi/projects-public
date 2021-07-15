@@ -1,0 +1,122 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"navigationBarTitleText":"",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}, 
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/home/kaoqin/kaoqin",
+			"style": {
+				"navigationBarTitleText":"考勤"
+				// "transparentTitle":"auto"
+			}
+		},
+		{
+			"path": "pages/home/baobiao/baobiao",
+			"style": {
+				"navigationBarTitleText":"生产报表"
+				// "transparentTitle":"auto"
+			}
+		},
+		{
+			"path": "pages/mine/user/user",
+			"style": {
+				"navigationBarTitleText":"用户管理"
+			}
+		},
+		{
+			"path": "pages/mine/userlist/userlist",
+			"style": {
+				"navigationBarTitleText":"用户列表"
+			}
+		},
+		{
+			"path": "pages/mine/useradd/useradd",
+			"style": {
+				"navigationBarTitleText":"添加用户"
+			}
+		},
+		{
+			"path": "pages/mine/userdelete/userdelete",
+			"style": {
+				"navigationBarTitleText":"删除用户"
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText":"用户注册",
+				"navigationBarBackgroundColor":"#0081ff",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarTitleText":"忘记密码",
+				"navigationBarBackgroundColor":"#0081ff",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/setname/setname",
+			"style": {
+				"navigationBarTitleText":"修改昵称",
+				"navigationBarBackgroundColor":"#0081ff",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/mine/usershenhe/usershenhe",
+			"style": {
+				"navigationBarTitleText":"用户审核",
+				"navigationBarBackgroundColor":"#0081ff",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F1F1F1",
+		"navigationBarTitleText":"电控测试课",
+		"backgroundColor": "#F8F8F8",
+		"pageOrientation": "auto",
+		"animationType":"slide-in-right"
+	}, 
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"color": "#8F8F94",
+		"selectedColor": "#007aff",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/img/tabbar/bar-home.png",
+				"selectedIconPath": "static/img/tabbar/bar-home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"iconPath": "static/img/tabbar/bar-mine.png",
+				"selectedIconPath": "static/img/tabbar/bar-mine-active.png",
+				"text": "我"
+			}
+		]
+	}
+}

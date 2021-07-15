@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"p_total":{
+			"bsonType":"int",
+			"description":"总人力"
+		},
+		"p_kenei":{
+			"bsonType":"int",
+			"description":"课内人力"
+		},
+		"p_enter":{
+			"bsonType":"int",
+			"description":"支援入"
+		},
+		"p_out":{
+			"bsonType":"int",
+			"description":"支援出/出差"
+		},
+		"p_qingjia":{
+			"bsonType":"int",
+			"description":"请假"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/tabbar/home/home",
+    "pages/tabbar/mine/mine",
+    "pages/home/kaoqin/kaoqin",
+    "pages/home/baobiao/baobiao",
+    "pages/mine/user/user",
+    "pages/mine/userlist/userlist",
+    "pages/mine/useradd/useradd",
+    "pages/mine/userdelete/userdelete",
+    "pages/reg/reg",
+    "pages/forget/forget",
+    "pages/setname/setname",
+    "pages/mine/usershenhe/usershenhe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F1F1F1",
+    "navigationBarTitleText": "电控测试课",
+    "backgroundColor": "#F8F8F8",
+    "pageOrientation": "auto",
+    "animationType": "slide-in-right"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "color": "#8F8F94",
+    "selectedColor": "#007aff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "iconPath": "static/img/tabbar/bar-home.png",
+        "selectedIconPath": "static/img/tabbar/bar-home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/mine/mine",
+        "iconPath": "static/img/tabbar/bar-mine.png",
+        "selectedIconPath": "static/img/tabbar/bar-mine-active.png",
+        "text": "我"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "resizable": true,
+  "usingComponents": {
+    "uni-popup": "/wxcomponents/uni-popup/uni-popup",
+    "uni-transition": "/wxcomponents/uni-transition/uni-transition",
+    "uni-forms": "/wxcomponents/uni-forms/uni-forms",
+    "uni-forms-item": "/wxcomponents/uni-forms/uni-forms",
+    "uni-group": "/wxcomponents/uni-group/uni-group",
+    "uni-easyinput": "/wxcomponents/uni-easyinput/uni-easyinput",
+    "uni-icons": "/wxcomponents/uni-icons/uni-icons",
+    "uni-popup-dialog": "/wxcomponents/uni-popup-dialog/uni-popup-dialog",
+    "uni-swiper-dot": "/wxcomponents/uni-swiper-dot/uni-swiper-dot",
+    "uni-tag": "/wxcomponents/uni-tag/uni-tag",
+    "uni-indexed-list": "/wxcomponents/uni-indexed-list/uni-indexed-list",
+    "uni-calendar": "/wxcomponents/uni-calendar/uni-calendar"
+  },
+  "sitemapLocation": "sitemap.json"
+}

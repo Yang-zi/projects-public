@@ -1,0 +1,47 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"model":{
+			"bsonType":"string",
+			"description":"机器型号"
+		},
+		"order":{
+			"bsonType":"string",
+			"description":"工单号"
+		},
+		"robotNewNum":{
+			"bsonType":"int",
+			"description":"今日新装机数量"
+		},
+		"robotTestNum":{
+			"bsonType":"int",
+			"description":"在测"
+		},
+		"robotInspectNum":{
+			"bsonType":"int",
+			"description":"送检"
+		},
+		"robotTotalNum":{
+			"bsonType":"int",
+			"description":"累计完成"
+		},
+		"robotAbnormal":{
+			"bsonType":"int",
+			"description":"异常处理中"
+		},
+		"createTime":{
+			"bsonType":"timestamp",
+			"description":"创建时间"
+		}
+	}
+}

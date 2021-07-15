@@ -1,0 +1,18 @@
+
+uni-page-body{
+	background-color: #F1F1F1!important;
+	overflow: hidden;
+}
+.margin-top{
+	margin-top: 20rpx;
+}
+.submit-btn{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 30px;
+}
+.cu-btn{
+	width: 80%;
+	margin: 0 auto;
+}
+

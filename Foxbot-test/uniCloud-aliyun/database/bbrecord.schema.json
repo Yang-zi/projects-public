@@ -1,0 +1,23 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"date":{
+			"bsonType":"string",
+			"description": "日期"
+		},
+		"records":{
+			"bsonType":"array",
+			"description": "当前日期的所有机型记录"
+		}
+	}
+}

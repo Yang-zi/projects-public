@@ -1,0 +1,7 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{	"name":"fiibot",
+	"account":"F1919657",
+	"pw1":"123456",
+	"pw2":"123456"
+}
